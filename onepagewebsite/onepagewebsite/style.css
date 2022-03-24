@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+div, section, span, ul, li, a, header{
+    box-sizing: border-box;
+}
+
+/*css reset*/
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+#menu{
+    margin-left: 620px;
+}
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+#menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+
+#home{
+   background-color: #59405C;
+}
+#p1{
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    color: whitesmoke ;
+    font-size: 20px;
+    margin-top: -200px;
+    margin-left:550px;
+}
+
+#about{
+     background-color: #ED6663;
+}
+#p2{
+    width: 670px;
+    height: 200px;
+    text-align: left;
+    color: whitesmoke ;
+    font-size: 20px;
+    margin-top: -390px;
+    margin-left:500px;
+}
+#logo2 img{
+    width: 400px;
+    height: 250px;
+    margin-left: 40px;
+    margin-top: 150px;
+}
+#product{
+     background-color: #B52B65;
+}
+#p3{
+    width: 670px;
+    height: 200px;
+    text-align: left;
+    color: whitesmoke ;
+    font-size: 20px;
+    margin-top: -280px;
+    margin-left:500px;
+}
+#logo3 img{
+    width: 400px;
+    height: 250px;
+    margin-left: 40px;
+    margin-top: 150px;
+}
+#pricing{
+     background-color: #3C2C3E;
+}
+#p4{
+    width: 670px;
+    height: 200px;
+    text-align: left;
+    color: whitesmoke ;
+    font-size: 20px;
+    margin-top: -290px;
+    margin-left:500px;
+}
+#logo4 img{
+    width: 400px;
+    height: 250px;
+    margin-left: 40px;
+    margin-top: 150px;
+}
+#contact{
+     background-color: #B52B65;
+}
+#p5{
+    width: 870px;
+    height: 200px;
+    text-align: center;
+    color: whitesmoke ;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left:200px;
+}
+
+h1{
+    position: absolute;
+    top: 8%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+#logo img{
+    width: 100px;
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+#logo1 img{
+    width: 400px;
+    height: 250px;
+    margin-left: 40px;
+    margin-top: 150px;
+}
+
+
+
+function contain block of code which we can repedelty use in js program we can define js with the help of fuction 
+
+
+
